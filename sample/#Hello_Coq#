@@ -1,0 +1,4 @@
+Inductive binop : Set := Plus | Times.
+Inductive exp : Set := Const : nat -> exp | Binop : binop -> exp -> exp -> exp.
+
+
